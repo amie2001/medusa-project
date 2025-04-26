@@ -1,37 +1,36 @@
-# --- Site settings ---
-title: "Medusa Backend Deployment on AWS ECS Fargate"
-description: "A complete hands-on project showcasing serverless deployment of the Medusa backend on AWS ECS Fargate using Terraform and GitHub Actions CI/CD."
+title: "Medusa Backend Deployment on AWS ECS with Fargate"
+description: "A full-stack deployment of the Medusa open-source headless commerce backend using Terraform and GitHub Actions."
+url: "https://your-github-username.github.io"  # Replace with your GitHub Pages URL
+baseurl: "/docker-medusa"  # Adjust based on your repository name or path
+github_username: "amie2001"  # Optional
 
-# --- Theme settings ---
-theme: jekyll-theme-cayman  # Using Cayman Theme for an attractive and clean design
+theme: "jekyll-theme-chirpy"  # Set Chirpy theme
 
-# --- Personalization ---
-author: "Pavithra"
-email: "pavithrasozhan@gmail.com"
+# Social Media Links (LinkedIn instead of Twitter)
+social_links:
+  - icon: "fab fa-github"
+    label: "GitHub"
+    url: "https://github.com/amie2001/docker-medusa-/blob/project/README.md"  # Your project GitHub URL
+  - icon: "fab fa-linkedin"
+    label: "LinkedIn"
+    url: "https://www.linkedin.com/in/pavithra-cholan-388129284/"  # Replace with your LinkedIn profile URL
 
-# --- Social links ---
-github_username: "amie2001"
-github_url: "https://github.com/amie2001/docker-medusa-/blob/project/README.md"
-linkedin_url: "https://www.linkedin.com/in/pavithra-cholan-388129284/"  # Replace with your LinkedIn profile
+# Enable search feature
+search_enabled: true
 
-# --- Navbar (customize navigation links) ---
-navbar:
-  - text: "Home"
-    link: "/"
-  - text: "GitHub Repo"
-    link: "https://github.com/amie2001/docker-medusa-/blob/project/README.md"
-  - text: "Video Walkthrough"
-    link: "https://drive.google.com/file/d/1veK8mLx2Qqqb4E328lnvLuNVM8HlaCyK/view?usp=sharing"
-  - text: "Docs"
-    link: "/docs"  # You can link to documentation if applicable
+# Exclude directories and files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
 
-# --- Style settings ---
-favicon: "assets/favicon.ico"  # Add a custom favicon image in the 'assets' folder
-
-# --- SEO settings ---
-seo:
-  meta_title: "Medusa Backend Deployment on AWS"
-  meta_description: "This project automates the deployment of Medusa Backend on AWS ECS Fargate with Terraform and GitHub Actions."
-
-# --- Additional customizations (optional) ---
-footer_text: "Created by Pavithra | Powered by GitHub Pages"
+# Customize the navigation menu (Optional)
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "GitHub Repo"
+    url: "https://www.linkedin.com/in/pavithra-cholan-388129284/"  # Link to your GitHub repository
+  - title: "Video Walkthrough"
+    url: "https://drive.google.com/file/d/1veK8mLx2Qqqb4E328lnvLuNVM8HlaCyK/view?usp=sharing"  # Your video link
