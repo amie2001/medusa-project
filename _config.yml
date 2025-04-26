@@ -4,7 +4,7 @@ url: "https://your-github-username.github.io"  # Replace with your GitHub Pages 
 baseurl: "/docker-medusa"  # Adjust based on your repository name or path
 github_username: "amie2001"  # Optional
 
-theme: "jekyll-theme-chirpy"  # Set Chirpy theme
+theme: "jekyll-theme-gohar"  # Set Chirpy theme
 
 # Social Media Links (LinkedIn instead of Twitter)
 social_links:
