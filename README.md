@@ -23,9 +23,10 @@ We containerized the backend, automated the build and delivery pipeline, provisi
 4. GitHub Actions builds and pushes Docker image to Docker Hub.
 5. ECS Fargate service pulls the image and runs the backend automatically.
 
----
+👉 **To know more about this project in detail, visit the [GitHub README](https://github.com/amie2001/docker-medusa-/blob/project/README.md)**
 
-# 📸 Project Snapshots
+
+---
 
 ### TERRAFORM INFRASTRUCTURE PROVISIONING
 
@@ -44,8 +45,6 @@ We containerized the backend, automated the build and delivery pipeline, provisi
 ![Medusa Backend Running](asset/medusa-running.png)
 
 ---
-
-# 📢 Learn More
 
 👉 **To know more about this project in detail, visit the [GitHub README](https://github.com/amie2001/docker-medusa-/blob/project/README.md)**
 
