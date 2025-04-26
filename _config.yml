@@ -1,19 +1,14 @@
 title: "🚀 Medusa Project"
 description: "Medusa deployment project with Docker, Jenkins, and AWS."
 
-theme: jekyll-theme-cayman
+theme: "minimal-mistakes-jekyll"
 
 # Author details
 author:
   name: Pavithra
 
 # Repository info
-repository: amie2001/medusa-project
-
-# Optional footer or intro
-footer_text: >
-  👉 To know more about this project, visit the 
-  [GitHub repository](https://github.com/amie2001/docker-medusa-/blob/project/README.md)
+repository: https://github.com/amie2001/docker-medusa-/blob/project/README.md
 
 markdown: kramdown
 kramdown:
@@ -26,3 +21,10 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+
+# Highlight theme for code blocks (you can choose colors)
+highlight:
+  theme: "monokai"
+
+# Disabling the "Show downloads" section
+show_downloads: false
