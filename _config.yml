@@ -1,5 +1,5 @@
-title: "🚀 Medusa Project"
-description: "Medusa deployment project with Docker, Jenkins, and AWS."
+title: "Serverless Medusa Backend Deployment"
+description: "A complete hands-on project showcasing serverless deployment of the Medusa backend on AWS ECS Fargate using Terraform and GitHub Actions CI/CD."
 
 theme: "jekyll-theme-merlot"
 
