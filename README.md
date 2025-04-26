@@ -1,11 +1,3 @@
-# 🚀 Medusa Backend Deployment on AWS ECS Fargate
-
-This project demonstrates the deployment of a **Medusa headless commerce backend** using **Terraform**, **Docker Hub**, **GitHub Actions**, and **AWS ECS Fargate**.
-
-We containerized the backend, automated the build and delivery pipeline, provisioned cloud infrastructure with code, and achieved a fully serverless deployment — following modern DevOps practices.
-
----
-
 ## 🛠️ Key Highlights
 
 - **Infrastructure as Code**: Terraform provisions VPC, ECS Cluster, Task Definition, and Security Groups.
