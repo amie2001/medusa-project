@@ -1,12 +1,7 @@
-title: "🚀 Medusa Project - Application Deployment"
-description: "Production-ready application deployment using Docker, Jenkins, and AWS EKS with Medusa."
+title: "🚀 Medusa Project"
+description: "Medusa deployment project with Docker, Jenkins, and AWS."
 
-theme: "jekyll-theme-minimal"
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
-
-show_downloads: false
+theme: jekyll-theme-cayman
 
 # Author details
 author:
@@ -17,7 +12,8 @@ repository: amie2001/medusa-project
 
 # Optional footer or intro
 footer_text: >
-  👉 To learn more about this project, visit the [GitHub repository](https://github.com/amie2001/medusa-project).
+  👉 To know more about this project, visit the 
+  [GitHub repository](https://github.com/amie2001/docker-medusa-/blob/project/README.md)
 
 markdown: kramdown
 kramdown:
