@@ -52,11 +52,3 @@ We containerized the backend, automated the build and delivery pipeline, provisi
 ---
 
 # ✨ Thank you for visiting!
-
-
-
-Would you also want me to suggest a **cool title** for your GitHub Pages like  
-> "Serverless Medusa Backend on AWS | Terraform + Docker + GitHub Actions"
-
-? (Just if you want it to sound even more 🔥 when people open your GitHub Pages!)  
-Shall I suggest? 🚀
