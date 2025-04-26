@@ -1,36 +1,32 @@
-title: "Medusa Backend Deployment on AWS ECS with Fargate"
-description: "A full-stack deployment of the Medusa open-source headless commerce backend using Terraform and GitHub Actions."
-url: "https://your-github-username.github.io"  # Replace with your GitHub Pages URL
-baseurl: "/docker-medusa"  # Adjust based on your repository name or path
-github_username: "amie2001"  # Optional
+title: "🚀 Medusa Project - Application Deployment"
+description: "Production-ready application deployment using Docker, Jenkins, and AWS EKS with Medusa."
 
-theme: "jekyll-theme-gohar"  # Set Chirpy theme
+theme: "jekyll-theme-chirpy"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
 
-# Social Media Links (LinkedIn instead of Twitter)
-social_links:
-  - icon: "fab fa-github"
-    label: "GitHub"
-    url: "https://github.com/amie2001/docker-medusa-/blob/project/README.md"  # Your project GitHub URL
-  - icon: "fab fa-linkedin"
-    label: "LinkedIn"
-    url: "https://www.linkedin.com/in/pavithra-cholan-388129284/"  # Replace with your LinkedIn profile URL
+show_downloads: false
 
-# Enable search feature
-search_enabled: true
+# Author details
+author:
+  name: Pavithra
 
-# Exclude directories and files from the build
+# Repository info
+repository: https://github.com/amie2001/docker-medusa-/blob/project/README.md
+
+# Optional footer or intro
+footer_text: >
+  👉 To learn more about this project, visit the [GitHub repository](https://github.com/amie2001/docker-medusa-/blob/project/README.md).
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Build excludes
 exclude:
   - Gemfile
   - Gemfile.lock
-  - README.md
-
-# Customize the navigation menu (Optional)
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about"
-  - title: "GitHub Repo"
-    url: "https://www.linkedin.com/in/pavithra-cholan-388129284/"  # Link to your GitHub repository
-  - title: "Video Walkthrough"
-    url: "https://drive.google.com/file/d/1veK8mLx2Qqqb4E328lnvLuNVM8HlaCyK/view?usp=sharing"  # Your video link
+  - node_modules
+  - vendor
