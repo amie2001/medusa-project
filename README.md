@@ -29,7 +29,7 @@ We containerized the backend, automated the build and delivery pipeline, provisi
 
 ### Terraform Infrastructure Provisioning
 
-![Terraform Provisioning](assets/Terraform-provisioning.jpeg)
+![Terraform Provisioning](assets/terraform-provisioning.png)
 
 ---
 
