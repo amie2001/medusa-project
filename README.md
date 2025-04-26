@@ -38,8 +38,4 @@
 
 ---
 
-👉 **To know more about this project in detail, visit the [GitHub README](https://github.com/amie2001/docker-medusa-/blob/project/README.md)**
-
----
-
 # ✨ Thank you for visiting!
