@@ -27,19 +27,19 @@ We containerized the backend, automated the build and delivery pipeline, provisi
 
 # 📸 Project Snapshots
 
-### Terraform Infrastructure Provisioning
+### TERRAFORM INFRASTRUCTURE PROVISIONING
 
 ![Terraform Provisioning](asset/terraform-provisioning.png)
 
 ---
 
-### ECS Service and Task Running Successfully
+### ECS SERVICE AND TASK RUNNING SUCCESSFULLY
 
 ![ECS Task Running](asset/ecs-task-running.png)
 
 ---
 
-### Medusa Backend Live on Public IP (Port 9000)
+### MEDUSA BACKEND LIVE ON PUBLIC IP (PORT 9000)
 
 ![Medusa Backend Running](asset/medusa-running.png)
 
